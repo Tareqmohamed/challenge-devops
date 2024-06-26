@@ -23,8 +23,8 @@ services:
       context: ./api
       dockerfile: Dockerfile
     container_name: api
-    volumes:
-      - ./api:/var/www/html      # API code volume
+    # volumes:
+    #   - ./api:/var/www/html      # API code volume
     depends_on:
       - db                       # Start db first
     ports:
