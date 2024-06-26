@@ -26,5 +26,6 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - uses: actions/checkout@v4
       - name: Build the Docker image
-        run: ls
+        working-directory: ./client
+        run: docker build .
         
