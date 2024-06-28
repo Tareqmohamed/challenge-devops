@@ -18,7 +18,7 @@
     ```sh
     docker compose up --build
     ```
-3. install laravel dependencies
+3. Install Laravel dependencies
     ```sh
     docker compose exec api php artisan cache:clear
     docker compose exec api php artisan config:clear
@@ -36,7 +36,7 @@
 
 ## Screenshots
 
-1. docker-compose runing screenshot
+1. docker-compose running screenshot
 
 ![docker-compose runing screenshot](./screenshots/Screenshot%20from%202024-06-26%2010-33-54.png)
 
@@ -44,7 +44,7 @@
 
 ![client screenshot](./screenshots/Screenshot%20from%202024-06-26%2010-31-25.png)
 
-3.  api screenshot (changed port from 80 to 443 and run through https)
+3.  API screenshot (changed port from 80 to 443 and ran through https)
 
 ![api screenshot](./screenshots/Screenshot%20from%202024-06-26%2010-32-26.png)
 
@@ -53,3 +53,4 @@
 ![ssl screenshot](./screenshots/ssl.png)
 
 
+[![Docker Image CI](https://github.com/Tareqmohamed/challenge-devops/actions/workflows/main.yml/badge.svg)](https://github.com/Tareqmohamed/challenge-devops/actions/workflows/main.yml)
